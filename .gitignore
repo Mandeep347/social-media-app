@@ -5,6 +5,38 @@ build/
 dist/
 wheels/
 *.egg-info
+
+# Environment files
 .env
+.env.local
+.env.production.local
+app/.env
+
 # Virtual environments
 .venv
+venv/
+ENV/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Deployment
+.vercel
+.render
